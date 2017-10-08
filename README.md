@@ -24,5 +24,5 @@ This application was a homework assignment that had 3 main requirements as liste
 		* Create New Department
 
 ![Customer View](/images/bamazonCustomer.png)
-Format: ![Alt Text](url)
+Format: ![Customer View](https://github.com/bmonreal44094/bamazon/blob/master/images/bamazonCustomer.png)
 
