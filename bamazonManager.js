@@ -99,8 +99,14 @@ var addInventory = function(){
     });
 };
 
+
 var newProducts = function() {
-  inquirer
+	var departmentsList = []
+	connection.query("SELECT department_name from departments", function (err, result) {
+			departmentsList = result;
+    		return;
+		});
+  	inquirer
     .prompt([
       {
         name: "product",
@@ -108,10 +114,16 @@ var newProducts = function() {
         message: "Enter NAME of product you wish to add to the system: "
       },
       {
-        name: "department",
-        type: "input",
-        message: "Enter name of DEPARTMENT this product is associated with: "
-        //NEED TO ADD CHOICE FROM THE DEPARTMENTS TABLE
+      name: "department",
+      type: "rawlist",
+      choices: function() {
+        var choiceArray = [];
+        for (var i = 0; i < departmentsList.length; i++) {
+          choiceArray.push(departmentsList[i].department_name);
+        }
+        return choiceArray;
+      },
+      message: "Select the DEPARTMENT this product is associated with?"
       },
       {
         name: "price",

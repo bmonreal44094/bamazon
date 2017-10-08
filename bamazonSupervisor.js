@@ -40,7 +40,6 @@ var addDepartment = function(){
 	      over_head_costs: answer.over_head,
 	    },
 	    function(err, result) {
-	    	console.log(result.affectedRows + " product inserted!\n");
 	    	console.log("\nDepartment Added");
 	    	console.log("----------------------------------------");
 	    	console.table([

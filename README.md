@@ -23,6 +23,21 @@ This application was a homework assignment that had 3 main requirements as liste
 		* View Product Sales by Department
 		* Create New Department
 
-![Customer View](/images/bamazonCustomer.png)
-Format: ![Customer View](https://github.com/bmonreal44094/bamazon/blob/master/images/bamazonCustomer.png)
+## Customer View
 
+![Customer View](/images/bamazonCustomer.png)
+
+
+## Manager View 1
+# View Products for Sale and View Low Inventory
+
+![Manager View One](/images/bamazonManager1.png)
+
+## Manager View 2
+# Add to Inventory, Add New Product, and Exit
+
+![Manager View Two](/images/bamazonManager2.png)
+
+## Supervisor View
+
+![Supervisor View](/images/bamazonSupervisor.png)
