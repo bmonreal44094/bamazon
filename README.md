@@ -29,12 +29,12 @@ This application was a homework assignment that had 3 main requirements as liste
 
 
 ## Manager View 1
-# View Products for Sale and View Low Inventory
+### View Products for Sale and View Low Inventory
 
 ![Manager View One](/images/bamazonManager1.png)
 
 ## Manager View 2
-# Add to Inventory, Add New Product, and Exit
+### Add to Inventory, Add New Product, and Exit
 
 ![Manager View Two](/images/bamazonManager2.png)
 

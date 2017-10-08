@@ -157,7 +157,6 @@ var newProducts = function() {
 	      stock_quantity: answer.qty
 	    },
 	    function(err, res) {
-	    	console.log(res.affectedRows + " product inserted!\n");
 	    	console.log("\nItem Added");
 	    	console.log("----------------------------------------");
 	    	console.table([

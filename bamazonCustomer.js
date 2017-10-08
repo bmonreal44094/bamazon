@@ -19,7 +19,6 @@ var updateQTY = function(id, qty){
 
 var updateSales = function(id, qty, price, sales){
 	var newSales = sales + qty * price;
-	console.log(newSales);
 	var query = "UPDATE products SET ? WHERE ?";
     connection.query(query, [{ product_sales: newSales },{ id: id }], function(err, res) {
     });
