@@ -18,10 +18,6 @@ var updateQTY = function(id, qty){
 };
 
 var updateSales = function(id, qty, price, sales){
-	console.log(id);
-	console.log(qty);
-	console.log(price);
-	console.log(sales);
 	var newSales = sales + qty * price;
 	console.log(newSales);
 	var query = "UPDATE products SET ? WHERE ?";
